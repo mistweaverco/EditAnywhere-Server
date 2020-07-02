@@ -1,0 +1,33 @@
+{
+	"name": "editanywhere-server",
+	"version": "0.2.0",
+	"description": "Edit Anywhere Server",
+	"main": "cli.js",
+	"bin": {
+		"editanywhere-server": "./cli.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/superevilmegaco/editanywhere-server.git"
+	},
+	"keywords": [
+		"edit",
+		"anywhere",
+		"text",
+		"editor"
+	],
+	"author": "Marco Kellershoff",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/superevilmegaco/editanywhere-server/issues"
+	},
+	"homepage": "https://github.com/superevilmegaco/editanywhere-server#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"yargs": "^15.3.1"
+	}
+}
